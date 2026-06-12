@@ -1,0 +1,69 @@
+<div class="pub-bib-modal" id="pub-bib-modal" hidden>
+  <div class="pub-bib-modal__backdrop"></div>
+  <div class="pub-bib-modal__panel" role="dialog" aria-labelledby="pub-bib-modal-title">
+    <div class="pub-bib-modal__header">
+      <h4 id="pub-bib-modal-title">BibTeX</h4>
+      <button type="button" class="pub-bib-modal__close" aria-label="Close">&times;</button>
+    </div>
+    <pre class="pub-bib-modal__content" id="pub-bib-modal-content"></pre>
+    <button type="button" class="pub-bib-modal__copy">Copy</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  var modal = document.getElementById("pub-bib-modal");
+  if (!modal) return;
+
+  var content = document.getElementById("pub-bib-modal-content");
+  var copyBtn = modal.querySelector(".pub-bib-modal__copy");
+  var closeBtn = modal.querySelector(".pub-bib-modal__close");
+  var backdrop = modal.querySelector(".pub-bib-modal__backdrop");
+
+  function openBib(id) {
+    var source = document.getElementById(id);
+    if (!source) return;
+    content.textContent = source.textContent.trim();
+    modal.hidden = false;
+    document.body.classList.add("pub-bib-modal-open");
+  }
+
+  function closeBib() {
+    modal.hidden = true;
+    document.body.classList.remove("pub-bib-modal-open");
+  }
+
+  document.querySelectorAll(".pub-bib-button").forEach(function (btn) {
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      openBib(btn.getAttribute("data-bib"));
+    });
+  });
+
+  closeBtn.addEventListener("click", closeBib);
+  backdrop.addEventListener("click", closeBib);
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && !modal.hidden) closeBib();
+  });
+
+  copyBtn.addEventListener("click", function () {
+    var text = content.textContent;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () {
+        copyBtn.textContent = "Copied!";
+        setTimeout(function () { copyBtn.textContent = "Copy"; }, 1500);
+      });
+    } else {
+      var textarea = document.createElement("textarea");
+      textarea.value = text;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+      copyBtn.textContent = "Copied!";
+      setTimeout(function () { copyBtn.textContent = "Copy"; }, 1500);
+    }
+  });
+})();
+</script>

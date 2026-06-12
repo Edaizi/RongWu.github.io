@@ -40,10 +40,24 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.author__gs-citations {
+    margin-top: .35rem;
+
+    a {
+        display: inline-block;
+        text-decoration: none;
+    }
+
+    img {
+        display: block;
+        height: 20px;
+    }
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     border-bottom: 1px #efefef solid;
@@ -59,17 +73,23 @@
         > div {
             position: relative;
             width: 100%;
-            max-width: 400px;
+            max-width: 420px;
+            height: 245px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            box-shadow: 3px 3px 6px #888;
         }
 
         img {
             display: block;
             width: 100%;
-            max-width: 400px;
-            height: 225px;
-            box-shadow: 3px 3px 6px #888;
+            height: 100%;
             object-fit: contain;
-            background: #f8f9fa;
+            object-position: center;
+            box-shadow: none;
         }
     }
     
@@ -82,14 +102,14 @@
         .paper-box-image{
             justify-content: left;
             min-width: 200px;
-            max-width: 40%;
+            max-width: 42%;
             order: 1;
         }
         
         .paper-box-text{
             justify-content: left;
             padding-left: 2em;
-            max-width: 60%;
+            max-width: 58%;
             order: 2;
         }
 
@@ -111,10 +131,249 @@ h1:before, .anchor:before {
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
-    position: absolute;
-    margin-top: .5em;
-    margin-left: -.5em;
+    display: inline-block;
+    margin-right: .5rem;
+    margin-bottom: .35rem;
     color: white;
     background-color: #00369f;
     font-size: .8em;
+    font-weight: 700;
+    line-height: 1.6;
+    border-radius: 2px;
+}
+
+.badge--icml,
+.pub-tag--icml {
+    background-color: #00429d;
+}
+
+.badge--acl,
+.pub-tag--acl {
+    background-color: #006d77;
+}
+
+.badge--arxiv,
+.badge--preprint,
+.pub-tag--arxiv,
+.pub-tag--preprint {
+    background-color: #7b2cbf;
+}
+
+.badge--aaai,
+.pub-tag--aaai {
+    background-color: #008000;
+}
+
+.badge--tmlr,
+.pub-tag--tmlr {
+    background-color: #d97706;
+}
+
+.badge--energy,
+.pub-tag--energy {
+    background-color: #bc4749;
+}
+
+.badge--iclr,
+.pub-tag--iclr {
+    background-color: #3a0ca3;
+}
+
+.pub-tag {
+    display: inline-block;
+    padding: 0.12rem 0.45rem;
+    margin-right: 0.25rem;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 0.72em;
+    font-weight: 700;
+    line-height: 1.25;
+    vertical-align: middle;
+}
+
+.pub-link {
+    display: inline-block;
+    margin-right: 1.2rem;
+    font-weight: 700;
+
+    i {
+        margin-right: 0.25rem;
+    }
+}
+
+.hf-icon {
+    width: 1.1em;
+    height: 1.1em;
+    margin-right: 0.25rem;
+    vertical-align: -0.18em;
+}
+
+.github-stars {
+    margin-left: 0.35rem;
+    vertical-align: text-bottom;
+}
+
+.pub-list {
+    margin-top: 1rem;
+}
+
+.pub-group {
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 1.35rem;
+    
+    &:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+    }
+}
+
+.pub-item {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr) 4.5rem;
+    gap: 1rem;
+    padding: 1.35rem 0;
+}
+
+.pub-item__venue {
+    padding-top: .25rem;
+}
+
+.pub-item__title {
+    font-size: 1.05em;
+    font-weight: 600;
+}
+
+.pub-item__authors,
+.pub-item__meta {
+    margin-top: .25rem;
+}
+
+.pub-item__meta {
+    font-style: italic;
+}
+
+.pub-item__links {
+    margin-top: .55rem;
+}
+
+.pub-item__year {
+    color: #e5e5e5;
+    font-size: 2rem;
+    line-height: 1;
+    text-align: right;
+}
+
+.pub-button {
+    display: inline-block;
+    min-width: 3rem;
+    margin-right: .35rem;
+    padding: .16rem .45rem;
+    border: 1px solid #222;
+    color: #222;
+    font-size: .72em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pub-button:hover {
+    color: #fff;
+    background: #222;
+    text-decoration: none;
+}
+
+.pub-bib-modal-open {
+    overflow: hidden;
+}
+
+.pub-bib-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.pub-bib-modal[hidden] {
+    display: none;
+}
+
+.pub-bib-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.pub-bib-modal__panel {
+    position: relative;
+    width: min(42rem, 100%);
+    max-height: 80vh;
+    padding: 1.25rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    overflow: auto;
+}
+
+.pub-bib-modal__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .75rem;
+
+    h4 {
+        margin: 0;
+        font-size: 1rem;
+    }
+}
+
+.pub-bib-modal__close {
+    border: 0;
+    background: transparent;
+    color: #666;
+    font-size: 1.5rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.pub-bib-modal__content {
+    margin: 0 0 1rem;
+    padding: .85rem;
+    background: #f8f8f8;
+    border: 1px solid #eee;
+    font-size: .78rem;
+    line-height: 1.45;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.pub-bib-modal__copy {
+    padding: .35rem .85rem;
+    border: 1px solid #222;
+    background: #fff;
+    color: #222;
+    font-size: .78rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.pub-bib-modal__copy:hover {
+    color: #fff;
+    background: #222;
+}
+
+.bib-source {
+    display: none;
+}
+
+@media (max-width: 720px) {
+    .pub-item {
+        grid-template-columns: 1fr;
+        gap: .35rem;
+    }
+
+    .pub-item__year {
+        display: none;
+    }
 }
