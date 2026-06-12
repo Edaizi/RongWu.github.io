@@ -38,7 +38,7 @@ My [Google Scholar profile](https://scholar.google.com/citations?user=CWLwlJwAAA
 
 ## Agent
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/papers/evolver.svg' alt="EvolveR" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/papers/evolver.png' alt="EvolveR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079)
@@ -50,19 +50,7 @@ My [Google Scholar profile](https://scholar.google.com/citations?user=CWLwlJwAAA
 - A closed-loop experience lifecycle that enables LLM agents to distill reusable strategic principles offline and retrieve them during online interaction.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/papers/muse.svg' alt="MUSE" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks](https://arxiv.org/abs/2510.08002)
-
-Cheng Yang, Xuemeng Yang, Licheng Wen, Daocheng Fu, Jianbiao Mei, **Rong Wu**, Pinlong Cai, Yufan Shen, Ning Deng, Botian Shi, et al.
-
-[**Paper**](https://arxiv.org/abs/2510.08002) | [**Code**](https://github.com/KnowledgeXLab/MUSE) | [**HuggingFace**](https://huggingface.co/papers/2510.08002)
-
-- Introduces MUSE, an experience-driven agent with a hierarchical memory module for long-horizon productivity tasks.
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/papers/traineebench.svg' alt="Trainee-Bench" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/papers/trainee-bench.png' alt="Trainee-Bench" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The Agent's First Day: Benchmarking Learning, Exploration, and Scheduling in the Workplace Scenarios](https://arxiv.org/abs/2601.08173)
@@ -74,31 +62,7 @@ Daocheng Fu*, Jianbiao Mei*, **Rong Wu***, Xuemeng Yang, Jia Xu, Ding Wang, Pinl
 - Introduces Trainee-Bench, a dynamic benchmark for evaluating scheduling, exploration, and continual learning in workplace scenarios.
 </div></div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMLR 2025</div><img src='images/papers/o2searcher.svg' alt="O2-Searcher" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[O2-Searcher: A Searching-based Agent Model for Open-Domain Open-Ended Question Answering](https://arxiv.org/abs/2505.16582)
-
-Jianbiao Mei, Tao Hu, Daocheng Fu, Licheng Wen, Xuemeng Yang, **Rong Wu**, Pinlong Cai, Xinyu Cai, Xing Gao, Yu Yang, et al.
-
-[**Paper**](https://arxiv.org/abs/2505.16582) | [**Code**](https://github.com/KnowledgeXLab/O2-Searcher) | [**HuggingFace**](https://huggingface.co/papers/2505.16582)
-
-- A reinforcement learning based search agent for both open-ended and closed-ended open-domain question answering.
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/papers/researcher.svg' alt="RE-Searcher" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[RE-Searcher: Robust Agentic Search with Goal-oriented Planning and Self-reflection](https://arxiv.org/abs/2509.26048)
-
-Daocheng Fu, Jianbiao Mei, Licheng Wen, Xuemeng Yang, Cheng Yang, **Rong Wu**, Tao Hu, Sheng Li, Yufan Shen, Xinyu Cai, et al.
-
-[**Paper**](https://arxiv.org/abs/2509.26048) | [**HuggingFace**](https://huggingface.co/papers/2509.26048)
-
-- Combines goal-oriented planning and self-reflection to improve robustness of agentic search in complex environments.
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/papers/kgtraces.svg' alt="KG-Traces" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/papers/kg-traces.png' alt="KG-Traces" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [KG-Traces: Enhancing Large Language Models with Knowledge Graph-Constrained Trajectory Reasoning and Attribution Supervision](https://arxiv.org/abs/2506.00783)
@@ -110,9 +74,13 @@ Daocheng Fu, Jianbiao Mei, Licheng Wen, Xuemeng Yang, Cheng Yang, **Rong Wu**, T
 - Supervises LLM reasoning with KG-constrained trajectories and attribution-aware explanations for traceable reasoning.
 </div></div>
 
+- `ACL 2026 Findings` [Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks](https://arxiv.org/abs/2510.08002), Cheng Yang, Xuemeng Yang, Licheng Wen, Daocheng Fu, Jianbiao Mei, **Rong Wu**, Pinlong Cai, Yufan Shen, Ning Deng, Botian Shi, et al. [**Paper**](https://arxiv.org/abs/2510.08002) | [**Code**](https://github.com/KnowledgeXLab/MUSE) | [**HuggingFace**](https://huggingface.co/papers/2510.08002)
+- `TMLR 2025` [O2-Searcher: A Searching-based Agent Model for Open-Domain Open-Ended Question Answering](https://arxiv.org/abs/2505.16582), Jianbiao Mei, Tao Hu, Daocheng Fu, Licheng Wen, Xuemeng Yang, **Rong Wu**, Pinlong Cai, Xinyu Cai, Xing Gao, Yu Yang, et al. [**Paper**](https://arxiv.org/abs/2505.16582) | [**Code**](https://github.com/KnowledgeXLab/O2-Searcher) | [**HuggingFace**](https://huggingface.co/papers/2505.16582)
+- `arXiv 2025` [RE-Searcher: Robust Agentic Search with Goal-oriented Planning and Self-reflection](https://arxiv.org/abs/2509.26048), Daocheng Fu, Jianbiao Mei, Licheng Wen, Xuemeng Yang, Cheng Yang, **Rong Wu**, Tao Hu, Sheng Li, Yufan Shen, Xinyu Cai, et al. [**Paper**](https://arxiv.org/abs/2509.26048) | [**HuggingFace**](https://huggingface.co/papers/2509.26048)
+
 ## RAG
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/papers/leanrag.svg' alt="LeanRAG" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/papers/leanrag.png' alt="LeanRAG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LeanRAG: Knowledge-Graph-based Generation with Semantic Aggregation and Hierarchical Retrieval](https://arxiv.org/abs/2508.10391)
@@ -126,43 +94,12 @@ Yaoze Zhang*, **Rong Wu***, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song Mao, Di
 
 ## Ai4sci
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Energy 2024</div><img src='images/papers/energy2024.svg' alt="Wind Power FL Energy" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A Transferable Federated Learning Approach for Wind Power Prediction Based on Active Privacy Clustering and Knowledge Merge](https://doi.org/10.1016/j.energy.2024.134044)
-
-Feiyun Cong, **Rong Wu**, Wei Zhong, Xiaojie Lin
-
-[**Paper**](https://doi.org/10.1016/j.energy.2024.134044)
-
-- A scalable federated learning approach for wind power prediction across multiple spatial scales while preserving data privacy.
-</div></div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASME 2024</div><img src='images/papers/asme2024.svg' alt="Wind Power FL ASME" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[An Ultra-Short-Term Power Prediction Method for Wind Farms in Northwest China Based on Federated Learning](https://doi.org/10.1115/ES2024-131171)
-
-**Rong Wu**, Xiaojie Lin, Feiyun Cong, Wei Zhong
-
-[**Paper**](https://doi.org/10.1115/ES2024-131171)
-
-- An ultra-short-term federated learning based wind power forecasting method for wind farms in Northwest China.
-</div></div>
+- `Energy 2024` [A Transferable Federated Learning Approach for Wind Power Prediction Based on Active Privacy Clustering and Knowledge Merge](https://doi.org/10.1016/j.energy.2024.134044), Feiyun Cong, **Rong Wu**, Wei Zhong, Xiaojie Lin. [**Paper**](https://doi.org/10.1016/j.energy.2024.134044)
+- `ASME 2024` [An Ultra-Short-Term Power Prediction Method for Wind Farms in Northwest China Based on Federated Learning](https://doi.org/10.1115/ES2024-131171), **Rong Wu**, Xiaojie Lin, Feiyun Cong, Wei Zhong. [**Paper**](https://doi.org/10.1115/ES2024-131171)
 
 ## Others
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/papers/kgfinetuning.svg' alt="KG Finetuning" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Knowledge Graph Finetuning Enhances Knowledge Manipulation in Large Language Models](https://openreview.net/forum?id=oMFOKjwaRS)
-
-Hanzhu Chen, Xu Shen, Jie Wang, Zehao Wang, Qitan Lv, Junjie He, **Rong Wu**, Feng Wu, Jieping Ye
-
-[**Paper**](https://openreview.net/forum?id=oMFOKjwaRS) | [**ICLR**](https://iclr.cc/virtual/2025/poster/28362)
-
-- Proposes KG-SFT, a knowledge graph driven supervised fine-tuning framework for improving domain knowledge manipulation in LLMs.
-</div></div>
+- `ICLR 2025` [Knowledge Graph Finetuning Enhances Knowledge Manipulation in Large Language Models](https://openreview.net/forum?id=oMFOKjwaRS), Hanzhu Chen, Xu Shen, Jie Wang, Zehao Wang, Qitan Lv, Junjie He, **Rong Wu**, Feng Wu, Jieping Ye. [**Paper**](https://openreview.net/forum?id=oMFOKjwaRS) | [**ICLR**](https://iclr.cc/virtual/2025/poster/28362)
 
 
 <span class='anchor' id='education'></span>

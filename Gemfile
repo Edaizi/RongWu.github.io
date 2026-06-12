@@ -4,6 +4,9 @@ source "https://rubygems.org"
 # GitHub Pages will still build this site in the cloud when you push.
 gem "jekyll", "~> 3.9"
 gem "webrick", "~> 1.8"
+gem "tzinfo", "~> 2.0"
+gem "tzinfo-data", platforms: [:windows]
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
