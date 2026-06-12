@@ -18,8 +18,7 @@ My research interests lie in **continual learning**, **large language models (LL
 
 # News
 
-- *2026.09*: I will join the Ph.D. program in Computer Science and Technology at Zhejiang University, jointly trained with Shanghai AI Laboratory.
-- *2026.03*: I received my M.Eng. degree from Zhejiang University.
+- *2026.03*: I received my Master degree from Zhejiang University.
 - *2026*: One paper was accepted to **ICML 2026**, and one paper was accepted to **ACL 2026**.
 - *2025*: One paper was accepted to **AAAI 2026**.
 
@@ -104,7 +103,6 @@ Yaoze Zhang\*, **Rong Wu***, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song Mao, D
 
 # Education
 
-- *2026.09 - *, Ph.D. in Computer Science and Technology, Zhejiang University (joint training with Shanghai AI Laboratory).
 - *2023 - 2026.03*, Master in Smart Energy (Power Engineering), College of Excellent Engineers, Zhejiang University.
 - *2019 - 2023*, Bachelor in Energy and Power Engineering, Nanjing University of Aeronautics and Astronautics.
 
@@ -113,4 +111,4 @@ Yaoze Zhang\*, **Rong Wu***, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song Mao, D
 # Experience
 
 - *2025.02 - Present*, Research Intern, Shanghai AI Laboratory.
-- *2023.12 - 2024.09*, Research Intern, Alibaba Cloud.
+- *2023.12 - 2024.09*, Research Intern, Alibaba Cloud
