@@ -17,42 +17,165 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I received my M.Eng. degree from Zhejiang University in March 2026, and will start my Ph.D. in Computer Science and Technology at Zhejiang University in September 2026, jointly trained with Shanghai AI Laboratory.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interests lie in **continual learning**, **large language models (LLMs)**, and **agents**. I am particularly interested in building agents that can learn from experience, retrieve and reason over knowledge, and improve through interaction over time.
 
+My [Google Scholar profile](https://scholar.google.com/citations?user=CWLwlJwAAAAJ&hl=zh-CN) is available online. Citation statistics: <a href='https://scholar.google.com/citations?user=CWLwlJwAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<span class='anchor' id='news'></span>
 
-# 📝 Publications 
+# News
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+- *2026.09*: I will join the Ph.D. program in Computer Science and Technology at Zhejiang University, jointly trained with Shanghai AI Laboratory.
+- *2026.03*: I received my M.Eng. degree from Zhejiang University.
+- *2026*: **EvolveR** accepted to **ICML 2026**; **LeanRAG** accepted to **AAAI 2026**.
+- *2025.02 - Present*: Research intern at Shanghai AI Laboratory, working on LLM agents, RAG, and continual learning.
+
+<span class='anchor' id='publications'></span>
+
+# Publications
+
+## Agent
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/papers/evolver.svg' alt="EvolveR" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Rong Wu***, Xiaoman Wang*, Jianbiao Mei, Pinlong Cai, Daocheng Fu, Cheng Yang, Licheng Wen, Xuemeng Yang, Yufan Shen, et al. (* equal contribution)
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+[**Paper**](https://arxiv.org/abs/2510.16079) | [**Code**](https://github.com/Edaizi/EvolveR) | [**HuggingFace**](https://huggingface.co/papers/2510.16079)
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- A closed-loop experience lifecycle that enables LLM agents to distill reusable strategic principles offline and retrieve them during online interaction.
+</div></div>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/papers/muse.svg' alt="MUSE" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks](https://arxiv.org/abs/2510.08002)
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+Cheng Yang, Xuemeng Yang, Licheng Wen, Daocheng Fu, Jianbiao Mei, **Rong Wu**, Pinlong Cai, Yufan Shen, Ning Deng, Botian Shi, et al.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+[**Paper**](https://arxiv.org/abs/2510.08002) | [**Code**](https://github.com/KnowledgeXLab/MUSE) | [**HuggingFace**](https://huggingface.co/papers/2510.08002)
+
+- Introduces MUSE, an experience-driven agent with a hierarchical memory module for long-horizon productivity tasks.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/papers/traineebench.svg' alt="Trainee-Bench" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[The Agent's First Day: Benchmarking Learning, Exploration, and Scheduling in the Workplace Scenarios](https://arxiv.org/abs/2601.08173)
+
+Daocheng Fu*, Jianbiao Mei*, **Rong Wu***, Xuemeng Yang, Jia Xu, Ding Wang, Pinlong Cai, Yong Liu, Licheng Wen, Botian Shi. (* equal contribution)
+
+[**Paper**](https://arxiv.org/abs/2601.08173) | [**Code**](https://github.com/KnowledgeXLab/EvoEnv) | [**HuggingFace**](https://huggingface.co/papers/2601.08173)
+
+- Introduces Trainee-Bench, a dynamic benchmark for evaluating scheduling, exploration, and continual learning in workplace scenarios.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TMLR 2025</div><img src='images/papers/o2searcher.svg' alt="O2-Searcher" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[O2-Searcher: A Searching-based Agent Model for Open-Domain Open-Ended Question Answering](https://arxiv.org/abs/2505.16582)
+
+Jianbiao Mei, Tao Hu, Daocheng Fu, Licheng Wen, Xuemeng Yang, **Rong Wu**, Pinlong Cai, Xinyu Cai, Xing Gao, Yu Yang, et al.
+
+[**Paper**](https://arxiv.org/abs/2505.16582) | [**Code**](https://github.com/KnowledgeXLab/O2-Searcher) | [**HuggingFace**](https://huggingface.co/papers/2505.16582)
+
+- A reinforcement learning based search agent for both open-ended and closed-ended open-domain question answering.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/papers/researcher.svg' alt="RE-Searcher" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[RE-Searcher: Robust Agentic Search with Goal-oriented Planning and Self-reflection](https://arxiv.org/abs/2509.26048)
+
+Daocheng Fu, Jianbiao Mei, Licheng Wen, Xuemeng Yang, Cheng Yang, **Rong Wu**, Tao Hu, Sheng Li, Yufan Shen, Xinyu Cai, et al.
+
+[**Paper**](https://arxiv.org/abs/2509.26048) | [**HuggingFace**](https://huggingface.co/papers/2509.26048)
+
+- Combines goal-oriented planning and self-reflection to improve robustness of agentic search in complex environments.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2025</div><img src='images/papers/kgtraces.svg' alt="KG-Traces" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[KG-Traces: Enhancing Large Language Models with Knowledge Graph-Constrained Trajectory Reasoning and Attribution Supervision](https://arxiv.org/abs/2506.00783)
+
+**Rong Wu**, Pinlong Cai, Jianbiao Mei, Licheng Wen, Tao Hu, Xuemeng Yang, Daocheng Fu, Botian Shi
+
+[**Paper**](https://arxiv.org/abs/2506.00783) | [**Code**](https://github.com/Edaizi/KG-TRACES) | [**HuggingFace**](https://huggingface.co/papers/2506.00783)
+
+- Supervises LLM reasoning with KG-constrained trajectories and attribution-aware explanations for traceable reasoning.
+</div></div>
+
+## RAG
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/papers/leanrag.svg' alt="LeanRAG" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LeanRAG: Knowledge-Graph-based Generation with Semantic Aggregation and Hierarchical Retrieval](https://arxiv.org/abs/2508.10391)
+
+Yaoze Zhang*, **Rong Wu***, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song Mao, Ding Wang, Botian Shi. (* equal contribution)
+
+[**Paper**](https://arxiv.org/abs/2508.10391) | [**Code**](https://github.com/RaZzzyz/LeanRAG) | [**HuggingFace**](https://huggingface.co/papers/2508.10391)
+
+- A hierarchical KG-RAG framework with semantic aggregation and structure-guided retrieval to reduce redundancy.
+</div></div>
+
+## Ai4sci
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Energy 2024</div><img src='images/papers/energy2024.svg' alt="Wind Power FL Energy" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Transferable Federated Learning Approach for Wind Power Prediction Based on Active Privacy Clustering and Knowledge Merge](https://doi.org/10.1016/j.energy.2024.134044)
+
+Feiyun Cong, **Rong Wu**, Wei Zhong, Xiaojie Lin
+
+[**Paper**](https://doi.org/10.1016/j.energy.2024.134044)
+
+- A scalable federated learning approach for wind power prediction across multiple spatial scales while preserving data privacy.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ASME 2024</div><img src='images/papers/asme2024.svg' alt="Wind Power FL ASME" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[An Ultra-Short-Term Power Prediction Method for Wind Farms in Northwest China Based on Federated Learning](https://doi.org/10.1115/ES2024-131171)
+
+**Rong Wu**, Xiaojie Lin, Feiyun Cong, Wei Zhong
+
+[**Paper**](https://doi.org/10.1115/ES2024-131171)
+
+- An ultra-short-term federated learning based wind power forecasting method for wind farms in Northwest China.
+</div></div>
+
+## Others
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='images/papers/kgfinetuning.svg' alt="KG Finetuning" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Knowledge Graph Finetuning Enhances Knowledge Manipulation in Large Language Models](https://openreview.net/forum?id=oMFOKjwaRS)
+
+Hanzhu Chen, Xu Shen, Jie Wang, Zehao Wang, Qitan Lv, Junjie He, **Rong Wu**, Feng Wu, Jieping Ye
+
+[**Paper**](https://openreview.net/forum?id=oMFOKjwaRS) | [**ICLR**](https://iclr.cc/virtual/2025/poster/28362)
+
+- Proposes KG-SFT, a knowledge graph driven supervised fine-tuning framework for improving domain knowledge manipulation in LLMs.
+</div></div>
+
+
+<span class='anchor' id='education'></span>
+
+# Education
+
+- *2026.09 - *, Ph.D. in Computer Science and Technology, Zhejiang University (joint training with Shanghai AI Laboratory).
+- *2023 - 2026.03*, M.Eng. in Smart Energy (Power Engineering), College of Excellent Engineers, Zhejiang University.
+- *2019 - 2023*, B.Eng. in Energy and Power Engineering, Nanjing University of Aeronautics and Astronautics.
+
+<span class='anchor' id='experience'></span>
+
+# Experience
+
+- *2025.02 - Present*, Research Intern, Shanghai AI Laboratory.
+- *2023.12 - 2024.09*, Research Intern, Alibaba Cloud.
