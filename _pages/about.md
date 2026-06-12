@@ -103,7 +103,7 @@ Yaoze Zhang\*, **Rong Wu***, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song Mao, D
 
 # Education
 
-- *2023 - 2026.03*, Master in Smart Energy (Power Engineering), College of Excellent Engineers, Zhejiang University.
+- *2023 - 2026*, Master in Smart Energy (Power Engineering), College of Excellent Engineers, Zhejiang University.
 - *2019 - 2023*, Bachelor in Energy and Power Engineering, Nanjing University of Aeronautics and Astronautics.
 
 <span class='anchor' id='experience'></span>
