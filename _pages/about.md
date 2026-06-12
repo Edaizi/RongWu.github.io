@@ -12,7 +12,7 @@ redirect_from:
 
 I received my Master degree from Zhejiang University in March 2026, and will start my Ph.D. in Computer Science and Technology at Zhejiang University in September 2026, jointly trained with <a href="https://www.shlab.org.cn/" style="text-decoration: none;">Shanghai AI Laboratory</a>. Currently, I am an intern researcher at <a href="https://www.shlab.org.cn/" style="text-decoration: none;">Shanghai AI Laboratory</a>.
 
-My research interests lie in **continual learning**, **large language models (LLMs)**, and **agents**. I am particularly interested in building agents that can learn from it's own texperience, and improve through interaction over time.
+My research interests lie in **continual learning**, **large language models (LLMs)**, and **agents**. I am particularly interested in building agents that can learn from it's own experience, and improve through interaction over time.
 
 <span class='anchor' id='news'></span>
 
