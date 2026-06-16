@@ -26,7 +26,7 @@ My research interests lie in **continual learning**, **large language models (LL
 
 # Selected Publications
 
-Selected papers are shown below. * denotes equal contribution. For the full publication list, please see [Publications](/publications/).
+Selected papers are shown below. * denotes equal contribution. For the full publication list, please see [Publications]({{ site.baseurl }}/publications/).
 
 ## Agent
 
