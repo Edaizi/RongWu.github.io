@@ -28,6 +28,24 @@ My research interests lie in **continual learning**, **large language models (LL
 
 Selected papers are shown below. * denotes equal contribution. For the full publication list, please see [Publications]({{ site.baseurl }}/publications/).
 
+
+## Post-Training
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/pust.png' alt="PUST" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="badge badge--preprint">Preprint</span>
+[Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals](https://arxiv.org/abs/2607.11505)
+
+Daocheng Fu*, **Rong Wu**\*, Yu Yang*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
+
+<a class="pub-link" href="https://huggingface.co/papers/2607.11505"><img class="hf-icon" src="https://huggingface.co/front/assets/
+huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+<a class="pub-link" href="https://github.com/KnowledgeXLab/PUST"><i class="fab fa-github"></i>Code</a>
+
+- Proposes PUST, a modular post-training framework that decouples update-signal exploration on a proxy model from alignment on the primary LLM.
+</div></div>
+
 ## Agent
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/evolver.png' alt="EvolveR" width="100%"></div></div>
@@ -38,8 +56,9 @@ Selected papers are shown below. * denotes equal contribution. For the full publ
 
 **Rong Wu**\*, Xiaoman Wang*, Jianbiao Mei, Pinlong Cai, Daocheng Fu, Cheng Yang, Licheng Wen, Xuemeng Yang, Yufan Shen, et al.
 
-<a class="pub-link" href="https://github.com/Edaizi/EvolveR"><i class="fab fa-github"></i>Code</a>
+<a class="pub-link" href="https://github.com/KnowledgeXLab/EvolveR"><i class="fab fa-github"></i>Code</a>
 <a class="pub-link" href="https://huggingface.co/papers/2510.16079"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+<img class="github-stars" alt="EvolveR GitHub stars" src="https://img.shields.io/github/stars/KnowledgeXLab/EvolveR?style=social">
 
 - A closed-loop experience lifecycle that enables LLM agents to distill reusable strategic principles offline and retrieve them during online interaction.
 </div></div>
@@ -66,27 +85,13 @@ Daocheng Fu\*, Jianbiao Mei*, **Rong Wu**\*, Xuemeng Yang, Jia Xu, Ding Wang, Pi
 
 **Rong Wu**, Daocheng Fu, Licheng Wen, Xuemeng Yang, Shu Zou, Jianbiao Mei, Yuxin Wang, Hairong Zhang, Yu Yang, Tao Hu, Cong Zhang, Botian Shi, Pinlong Cai
 
-<a class="pub-link" href="https://arxiv.org/abs/2607.28272"><i class="ai ai-arxiv"></i>arXiv</a>
-<a class="pub-link" href="https://huggingface.co/papers/2607.28272"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+<a class="pub-link" href="https://huggingface.co/papers/2607.28272"><img class="hf-icon" src="https://huggingface.co/front/assets/
+huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+<a class="pub-link" href="https://github.com/KnowledgeXLab/MemHarness"><i class="fab fa-github"></i>Code</a>
 
 - Equips LLM agents to reconstruct retrieved experiences based on the present context, rather than replaying static memory verbatim, with GRPO training.
 </div></div>
 
-## Post-Training
-
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/pust.png' alt="PUST" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-<span class="badge badge--preprint">Preprint</span>
-[Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals](https://arxiv.org/abs/2607.11505)
-
-Daocheng Fu*, **Rong Wu***, Yu Yang*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
-
-<a class="pub-link" href="https://arxiv.org/abs/2607.11505"><i class="ai ai-arxiv"></i>arXiv</a>
-<a class="pub-link" href="https://huggingface.co/papers/2607.11505"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
-
-- Proposes PUST, a modular post-training framework that decouples update-signal exploration on a proxy model from alignment on the primary LLM.
-</div></div>
 
 ## RAG
 
@@ -97,9 +102,6 @@ Daocheng Fu*, **Rong Wu***, Yu Yang*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, P
 [SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning](https://arxiv.org/abs/2606.28447)
 
 Houyuan Qin*, **Rong Wu***, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai
-
-<a class="pub-link" href="https://arxiv.org/abs/2606.28447"><i class="ai ai-arxiv"></i>arXiv</a>
-<a class="pub-link" href="https://huggingface.co/papers/2606.28447"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 
 - Builds a directed semantic gradient graph for KG-RAG, guiding retrieval from abstract concepts to concrete evidence and mitigating probability black holes.
 </div></div>
