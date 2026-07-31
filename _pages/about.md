@@ -37,7 +37,7 @@ Selected papers are shown below. * denotes equal contribution. For the full publ
 <span class="badge badge--preprint">Preprint</span>
 [Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals](https://arxiv.org/abs/2607.11505)
 
-Daocheng Fu*, **Rong Wu**\*, Yu Yang*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
+Daocheng Fu\*, **Rong Wu**\*, Yu Yang\*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
 
 <a class="pub-link" href="https://huggingface.co/papers/2607.11505"><img class="hf-icon" src="https://huggingface.co/front/assets/
 huggingface_logo-noborder.svg" alt="">HuggingFace</a>
@@ -101,7 +101,7 @@ huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 <span class="badge badge--preprint">Preprint</span>
 [SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning](https://arxiv.org/abs/2606.28447)
 
-Houyuan Qin*, **Rong Wu***, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai
+Houyuan Qin*, **Rong Wu**\*, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai
 
 - Builds a directed semantic gradient graph for KG-RAG, guiding retrieval from abstract concepts to concrete evidence and mitigating probability black holes.
 </div></div>
