@@ -37,10 +37,9 @@ Selected papers are shown below. * denotes equal contribution. For the full publ
 <span class="badge badge--preprint">Preprint</span>
 [Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals](https://arxiv.org/abs/2607.11505)
 
-Daocheng Fu\*, **Rong Wu**\*, Yu Yang\*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
+Daocheng Fu&#42;, **Rong Wu**&#42;, Yu Yang&#42;, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
 
-<a class="pub-link" href="https://huggingface.co/papers/2607.11505"><img class="hf-icon" src="https://huggingface.co/front/assets/
-huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+<a class="pub-link" href="https://huggingface.co/papers/2607.11505"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 <a class="pub-link" href="https://github.com/KnowledgeXLab/PUST"><i class="fab fa-github"></i>Code</a>
 
 - Proposes PUST, a modular post-training framework that decouples update-signal exploration on a proxy model from alignment on the primary LLM.
@@ -54,7 +53,7 @@ huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 <span class="badge badge--icml">ICML 2026</span>
 [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079)
 
-**Rong Wu**\*, Xiaoman Wang*, Jianbiao Mei, Pinlong Cai, Daocheng Fu, Cheng Yang, Licheng Wen, Xuemeng Yang, Yufan Shen, et al.
+**Rong Wu**&#42;, Xiaoman Wang&#42;, Jianbiao Mei, Pinlong Cai, Daocheng Fu, Cheng Yang, Licheng Wen, Xuemeng Yang, Yufan Shen, et al.
 
 <a class="pub-link" href="https://github.com/KnowledgeXLab/EvolveR"><i class="fab fa-github"></i>Code</a>
 <a class="pub-link" href="https://huggingface.co/papers/2510.16079"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
@@ -69,7 +68,7 @@ huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 <span class="badge badge--acl">ACL 2026 Findings</span>
 [The Agent's First Day: Benchmarking Learning, Exploration, and Scheduling in the Workplace Scenarios](https://arxiv.org/abs/2601.08173)
 
-Daocheng Fu\*, Jianbiao Mei*, **Rong Wu**\*, Xuemeng Yang, Jia Xu, Ding Wang, Pinlong Cai, Yong Liu, Licheng Wen, Botian Shi.
+Daocheng Fu&#42;, Jianbiao Mei&#42;, **Rong Wu**&#42;, Xuemeng Yang, Jia Xu, Ding Wang, Pinlong Cai, Yong Liu, Licheng Wen, Botian Shi.
 
 <a class="pub-link" href="https://github.com/KnowledgeXLab/EvoEnv"><i class="fab fa-github"></i>Code</a>
 <a class="pub-link" href="https://huggingface.co/papers/2601.08173"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
@@ -85,8 +84,7 @@ Daocheng Fu\*, Jianbiao Mei*, **Rong Wu**\*, Xuemeng Yang, Jia Xu, Ding Wang, Pi
 
 **Rong Wu**, Daocheng Fu, Licheng Wen, Xuemeng Yang, Shu Zou, Jianbiao Mei, Yuxin Wang, Hairong Zhang, Yu Yang, Tao Hu, Cong Zhang, Botian Shi, Pinlong Cai
 
-<a class="pub-link" href="https://huggingface.co/papers/2607.28272"><img class="hf-icon" src="https://huggingface.co/front/assets/
-huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+<a class="pub-link" href="https://huggingface.co/papers/2607.28272"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 <a class="pub-link" href="https://github.com/KnowledgeXLab/MemHarness"><i class="fab fa-github"></i>Code</a>
 
 - Equips LLM agents to reconstruct retrieved experiences based on the present context, rather than replaying static memory verbatim, with GRPO training.
@@ -101,7 +99,7 @@ huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 <span class="badge badge--preprint">Preprint</span>
 [SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning](https://arxiv.org/abs/2606.28447)
 
-Houyuan Qin*, **Rong Wu**\*, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai
+Houyuan Qin&#42;, **Rong Wu**&#42;, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai
 
 - Builds a directed semantic gradient graph for KG-RAG, guiding retrieval from abstract concepts to concrete evidence and mitigating probability black holes.
 </div></div>
@@ -112,7 +110,7 @@ Houyuan Qin*, **Rong Wu**\*, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pin
 <span class="badge badge--aaai">AAAI 2026</span>
 [LeanRAG: Knowledge-Graph-based Generation with Semantic Aggregation and Hierarchical Retrieval](https://arxiv.org/abs/2508.10391)
 
-Yaoze Zhang\*, **Rong Wu***, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song Mao, Ding Wang, Botian Shi.
+Yaoze Zhang&#42;, **Rong Wu**&#42;, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song Mao, Ding Wang, Botian Shi.
 
 <a class="pub-link" href="https://github.com/RaZzzyz/LeanRAG"><i class="fab fa-github"></i>Code</a>
 <a class="pub-link" href="https://huggingface.co/papers/2508.10391"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
