@@ -19,8 +19,8 @@ My research interests lie in **continual learning**, **large language models (LL
 # News
 
 - *2026.03*: I received my Master degree from Zhejiang University.
-- *2026*: One paper was accepted to **ICML 2026**, and one paper was accepted to **ACL 2026**.
-- *2025*: One paper was accepted to **AAAI 2026**.
+- *2026*: 1 paper was accepted to **ICML 2026**, and 1 paper was accepted to **ACL 2026**.
+- *2025*: 1 paper was accepted to **AAAI 2026**.
 
 <span class='anchor' id='publications'></span>
 
@@ -58,8 +58,51 @@ Daocheng Fu\*, Jianbiao Mei*, **Rong Wu**\*, Xuemeng Yang, Jia Xu, Ding Wang, Pi
 - Introduces Trainee-Bench, a dynamic benchmark for evaluating scheduling, exploration, and continual learning in workplace scenarios.
 </div></div>
 
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/memharness.png' alt="MemHarness" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="badge badge--preprint">Preprint</span>
+[MemHarness: Memory Is Reconstructed, Not Replayed](https://arxiv.org/abs/2607.28272)
+
+**Rong Wu**, Daocheng Fu, Licheng Wen, Xuemeng Yang, Shu Zou, Jianbiao Mei, Yuxin Wang, Hairong Zhang, Yu Yang, Tao Hu, Cong Zhang, Botian Shi, Pinlong Cai
+
+<a class="pub-link" href="https://arxiv.org/abs/2607.28272"><i class="ai ai-arxiv"></i>arXiv</a>
+<a class="pub-link" href="https://huggingface.co/papers/2607.28272"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+
+- Equips LLM agents to reconstruct retrieved experiences based on the present context, rather than replaying static memory verbatim, with GRPO training.
+</div></div>
+
+## Post-Training
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/pust.png' alt="PUST" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="badge badge--preprint">Preprint</span>
+[Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals](https://arxiv.org/abs/2607.11505)
+
+Daocheng Fu*, **Rong Wu***, Yu Yang*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
+
+<a class="pub-link" href="https://arxiv.org/abs/2607.11505"><i class="ai ai-arxiv"></i>arXiv</a>
+<a class="pub-link" href="https://huggingface.co/papers/2607.11505"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+
+- Proposes PUST, a modular post-training framework that decouples update-signal exploration on a proxy model from alignment on the primary LLM.
+</div></div>
 
 ## RAG
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/semflowrag.png' alt="SemFlowRAG" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="badge badge--preprint">Preprint</span>
+[SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning](https://arxiv.org/abs/2606.28447)
+
+Houyuan Qin*, **Rong Wu***, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai
+
+<a class="pub-link" href="https://arxiv.org/abs/2606.28447"><i class="ai ai-arxiv"></i>arXiv</a>
+<a class="pub-link" href="https://huggingface.co/papers/2606.28447"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+
+- Builds a directed semantic gradient graph for KG-RAG, guiding retrieval from abstract concepts to concrete evidence and mitigating probability black holes.
+</div></div>
 
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/leanrag.png' alt="LeanRAG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
