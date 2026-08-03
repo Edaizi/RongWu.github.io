@@ -144,7 +144,6 @@ Feiyun Cong, **Rong Wu**, Wei Zhong, Xiaojie Lin.
 
 
 - <span class="pub-tag pub-tag--energy">ASME 2024</span> [An Ultra-Short-Term Power Prediction Method for Wind Farms in Northwest China Based on Federated Learning](https://doi.org/10.1115/ES2024-131171)
-
 **Rong Wu**, Xiaojie Lin, Feiyun Cong, Wei Zhong.
 
 <span class='anchor' id='education'></span>
