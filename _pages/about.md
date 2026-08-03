@@ -139,8 +139,13 @@ Yaoze Zhang&#42;, **Rong Wu**&#42;, Pinlong Cai, Xiaoman Wang, Guohang Yan, Song
 
 ## Ai4sci
 
-- <span class="pub-tag pub-tag--energy">Energy</span> [A Transferable Federated Learning Approach for Wind Power Prediction Based on Active Privacy Clustering and Knowledge Merge](https://doi.org/10.1016/j.energy.2024.134044), Feiyun Cong, **Rong Wu**, Wei Zhong, Xiaojie Lin.
-- <span class="pub-tag pub-tag--energy">ASME 2024</span> [An Ultra-Short-Term Power Prediction Method for Wind Farms in Northwest China Based on Federated Learning](https://doi.org/10.1115/ES2024-131171), **Rong Wu**, Xiaojie Lin, Feiyun Cong, Wei Zhong.
+- <span class="pub-tag pub-tag--energy">Energy</span> [A Transferable Federated Learning Approach for Wind Power Prediction Based on Active Privacy Clustering and Knowledge Merge](https://doi.org/10.1016/j.energy.2024.134044)
+Feiyun Cong, **Rong Wu**, Wei Zhong, Xiaojie Lin.
+
+
+- <span class="pub-tag pub-tag--energy">ASME 2024</span> [An Ultra-Short-Term Power Prediction Method for Wind Farms in Northwest China Based on Federated Learning](https://doi.org/10.1115/ES2024-131171)
+
+**Rong Wu**, Xiaojie Lin, Feiyun Cong, Wei Zhong.
 
 <span class='anchor' id='education'></span>
 
