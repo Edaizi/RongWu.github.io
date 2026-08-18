@@ -20,6 +20,7 @@ author_profile: true
     <div class="pub-item__meta">arXiv preprint arXiv:2607.28272, 2026</div>
     <div class="pub-item__links">
       <a class="pub-button" href="https://github.com/KnowledgeXLab/MemHarness">Code</a>
+      <img class="github-stars" alt="MemHarness GitHub stars" src="https://img.shields.io/github/stars/KnowledgeXLab/MemHarness?style=social">
       <a class="pub-button" href="https://huggingface.co/papers/2607.28272">HF</a>
       <a class="pub-button pub-bib-button" href="#" data-bib="bib-memharness">BIB</a>
     </div>

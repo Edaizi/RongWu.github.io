@@ -86,6 +86,7 @@ Daocheng Fu&#42;, Jianbiao Mei&#42;, **Rong Wu**&#42;, Xuemeng Yang, Jia Xu, Din
 
 <a class="pub-link" href="https://huggingface.co/papers/2607.28272"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
 <a class="pub-link" href="https://github.com/KnowledgeXLab/MemHarness"><i class="fab fa-github"></i>Code</a>
+<img class="github-stars" alt="MemHarness GitHub stars" src="https://img.shields.io/github/stars/KnowledgeXLab/MemHarness?style=social">
 
 - Equips LLM agents to reconstruct retrieved experiences based on the present context, rather than replaying static memory verbatim, with GRPO training.
 </div></div>
