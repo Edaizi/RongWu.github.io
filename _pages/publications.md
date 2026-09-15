@@ -44,13 +44,14 @@ author_profile: true
 </div>
 
 <div class="pub-item">
-  <div class="pub-item__venue"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+  <div class="pub-item__venue"><span class="pub-tag pub-tag--emnlp">EMNLP</span></div>
   <div>
     <div class="pub-item__title"><a href="https://arxiv.org/abs/2606.28447">SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning</a></div>
     <div class="pub-item__authors">Houyuan Qin*, <strong>Rong Wu</strong>*, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai</div>
-    <div class="pub-item__meta">arXiv preprint arXiv:2606.28447, 2026</div>
+    <div class="pub-item__meta">Empirical Methods in Natural Language Processing (EMNLP), 2026</div>
     <div class="pub-item__links">
       <a class="pub-button" href="https://arxiv.org/abs/2606.28447">arXiv</a>
+      <a class="pub-button" href="https://github.com/KnowledgeXLab/SemFlowRAG">Code</a>
       <a class="pub-button pub-bib-button" href="#" data-bib="bib-semflowrag">BIB</a>
     </div>
   </div>

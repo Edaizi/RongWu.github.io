@@ -25,8 +25,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Rong Wu (吴荣)"
   avatar           : "images/profile.jpg"
-  # bio              : "Ph.D. Student, Zhejiang University"
-  bio              : "Incoming Ph.D. Student, Zhejiang University (joint training with Shanghai AI Laboratory)"
+  bio              : "Ph.D. Candidate, Zhejiang University (joint training with Shanghai AI Laboratory)"
   location         : "Hangzhou, Zhejiang, China"
   employer         : "Shanghai AI Laboratory"
   pubmed           : 

@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I received my Master degree from Zhejiang University in March 2026, and will start my Ph.D. in Computer Science and Technology at Zhejiang University in September 2026, jointly trained with <a href="https://www.shlab.org.cn/" style="text-decoration: none;">Shanghai AI Laboratory</a>. Currently, I am an intern researcher at <a href="https://www.shlab.org.cn/" style="text-decoration: none;">Shanghai AI Laboratory</a>.
+I am a Ph.D. candidate in Computer Science and Technology at Zhejiang University, jointly trained with <a href="https://www.shlab.org.cn/" style="text-decoration: none;">Shanghai AI Laboratory</a>. I received my Master degree from Zhejiang University in March 2026.
 
 My research interests lie in **continual learning**, **large language models (LLMs)**, and **agents**. I am particularly interested in building agents that can learn from it's own experience, and improve through interaction over time.
 
@@ -18,8 +18,9 @@ My research interests lie in **continual learning**, **large language models (LL
 
 # News
 
+- *2026.09*: I started my Ph.D. at Zhejiang University.
 - *2026.03*: I received my Master degree from Zhejiang University.
-- *2026*: 1 paper was accepted to **ICML 2026**, and 1 paper was accepted to **ACL 2026**.
+- *2026*: 1 paper was accepted to **EMNLP 2026**, 1 paper was accepted to **ICML 2026**, and 1 paper was accepted to **ACL 2026**.
 - *2025*: 1 paper was accepted to **AAAI 2026**.
 
 <span class='anchor' id='publications'></span>
@@ -97,10 +98,12 @@ Daocheng Fu&#42;, Jianbiao Mei&#42;, **Rong Wu**&#42;, Xuemeng Yang, Jia Xu, Din
 <div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/semflowrag.png' alt="SemFlowRAG" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-<span class="badge badge--preprint">Preprint</span>
+<span class="badge badge--emnlp">EMNLP 2026</span>
 [SemFlowRAG: Directed Semantic Flow from Abstraction to Evidence for Complex Reasoning](https://arxiv.org/abs/2606.28447)
 
 Houyuan Qin&#42;, **Rong Wu**&#42;, Qinyuan Qin, Botian Shi, Jingjing Qu, Yang Sun, Pinlong Cai
+
+<a class="pub-link" href="https://github.com/KnowledgeXLab/SemFlowRAG"><i class="fab fa-github"></i>Code</a>
 
 - Builds a directed semantic gradient graph for KG-RAG, guiding retrieval from abstract concepts to concrete evidence and mitigating probability black holes.
 </div></div>
@@ -151,6 +154,7 @@ Feiyun Cong, **Rong Wu**, Wei Zhong, Xiaojie Lin.
 
 # Education
 
+- *2026 - Present*, Ph.D. in Computer Science and Technology, Zhejiang University.
 - *2023 - 2026*, Master in Smart Energy (Power Engineering), College of Excellent Engineers, Zhejiang University.
 - *2019 - 2023*, Bachelor in Energy and Power Engineering, Nanjing University of Aeronautics and Astronautics.
 
