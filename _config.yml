@@ -11,6 +11,7 @@ description              :  "Research interests include continual learning, LLM 
 url                      : "https://edaizi.github.io"
 baseurl                  : "/RongWu.github.io"
 repository               : "Edaizi/RongWu.github.io"
+google_scholar_stats_enable  : false  # set to true to show citation counts and enable the crawler
 google_scholar_stats_use_cdn : true
 
 # google analytics
