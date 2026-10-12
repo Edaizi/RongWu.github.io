@@ -15,6 +15,22 @@ author_profile: true
 <div class="pub-item">
   <div class="pub-item__venue"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
   <div>
+    <div class="pub-item__title"><a href="https://arxiv.org/abs/2610.13205">Rethinking Relative Policy Differences Transfer of On-Policy Distillation</a></div>
+    <div class="pub-item__authors"><strong>Rong Wu</strong>*, Daocheng Fu*, Yu Yang, Xuemeng Yang, Siqi Li, Shu Zou, Yao Zhu, Botian Shi, Bo Zhang, Cong Zhang, Pinlong Cai, Jianbiao Mei</div>
+    <div class="pub-item__meta">arXiv preprint arXiv:2610.13205, 2026</div>
+    <div class="pub-item__links">
+      <a class="pub-button" href="https://arxiv.org/abs/2610.13205">arXiv</a>
+      <a class="pub-button" href="https://github.com/KnowledgeXLab/A2-OPD">Code</a>
+      <a class="pub-button" href="https://huggingface.co/papers/2610.13205">HF</a>
+      <a class="pub-button pub-bib-button" href="#" data-bib="bib-opd-rpd">BIB</a>
+    </div>
+  </div>
+  <div class="pub-item__year">2026</div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-item__venue"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
+  <div>
     <div class="pub-item__title"><a href="https://arxiv.org/abs/2607.28272">MemHarness: Memory Is Reconstructed, Not Replayed</a></div>
     <div class="pub-item__authors"><strong>Rong Wu</strong>, Daocheng Fu, Licheng Wen, Xuemeng Yang, Shu Zou, Jianbiao Mei, Yuxin Wang, Hairong Zhang, Yu Yang, Tao Hu, Cong Zhang, Botian Shi, Pinlong Cai</div>
     <div class="pub-item__meta">arXiv preprint arXiv:2607.28272, 2026</div>
@@ -25,19 +41,19 @@ author_profile: true
       <a class="pub-button pub-bib-button" href="#" data-bib="bib-memharness">BIB</a>
     </div>
   </div>
-  <div class="pub-item__year">2026</div>
+  <div class="pub-item__year"></div>
 </div>
 
 <div class="pub-item">
   <div class="pub-item__venue"><span class="pub-tag pub-tag--preprint">Preprint</span></div>
   <div>
-    <div class="pub-item__title"><a href="https://arxiv.org/abs/2607.11505">Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals</a></div>
-    <div class="pub-item__authors">Daocheng Fu*, <strong>Rong Wu</strong>*, Yu Yang*, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao</div>
+    <div class="pub-item__title"><a href="https://arxiv.org/abs/2607.11505">Proxy OPD: On-Policy Distillation with Transferable Relative Proxy Update</a></div>
+    <div class="pub-item__authors">Daocheng Fu*, <strong>Rong Wu</strong>*, Yu Yang*, Jianbiao Mei, Licheng Wen, Pinlong Cai, Xuemeng Yang, Yong Liu, Botian Shi, Yu Qiao</div>
     <div class="pub-item__meta">arXiv preprint arXiv:2607.11505, 2026</div>
     <div class="pub-item__links">
-      <a class="pub-button" href="https://github.com/KnowledgeXLab/PUST">Code</a>
+      <a class="pub-button" href="https://github.com/KnowledgeXLab/P-OPD">Code</a>
       <a class="pub-button" href="https://huggingface.co/papers/2607.11505">HF</a>
-      <a class="pub-button pub-bib-button" href="#" data-bib="bib-pust">BIB</a>
+      <a class="pub-button pub-bib-button" href="#" data-bib="bib-popd">BIB</a>
     </div>
   </div>
   <div class="pub-item__year"></div>

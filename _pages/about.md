@@ -32,18 +32,32 @@ Selected papers are shown below. * denotes equal contribution. For the full publ
 
 ## Post-Training
 
-<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/pust.png' alt="PUST" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/a2-opd.png' alt="A2-OPD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 <span class="badge badge--preprint">Preprint</span>
-[Proxy Exploration and Reusable Guidance: A Modular LLM Post-Training Paradigm via Proxy-Guided Update Signals](https://arxiv.org/abs/2607.11505)
+[Rethinking Relative Policy Differences Transfer of On-Policy Distillation](https://arxiv.org/abs/2610.13205)
 
-Daocheng Fu&#42;, **Rong Wu**&#42;, Yu Yang&#42;, Xuemeng Yang, Jianbiao Mei, Licheng Wen, Pinlong Cai, Yong Liu, Botian Shi, Yu Qiao
+**Rong Wu**&#42;, Daocheng Fu&#42;, Yu Yang, Xuemeng Yang, Siqi Li, Shu Zou, Yao Zhu, Botian Shi, Bo Zhang, Cong Zhang, Pinlong Cai, Jianbiao Mei
+
+<a class="pub-link" href="https://github.com/KnowledgeXLab/A2-OPD"><i class="fab fa-github"></i>Code</a>
+<a class="pub-link" href="https://huggingface.co/papers/2610.13205"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
+
+- Presents a unified view of relative policy-difference transfer for on-policy distillation and identifies when expert–reference gaps yield effective any-to-any supervision.
+</div></div>
+
+<div class='paper-box'><div class='paper-box-image'><div><img src='images/papers/p-opd.png' alt="P-OPD" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+<span class="badge badge--preprint">Preprint</span>
+[Proxy OPD: On-Policy Distillation with Transferable Relative Proxy Update](https://arxiv.org/abs/2607.11505)
+
+Daocheng Fu&#42;, **Rong Wu**&#42;, Yu Yang&#42;, Jianbiao Mei, Licheng Wen, Pinlong Cai, Xuemeng Yang, Yong Liu, Botian Shi, Yu Qiao
 
 <a class="pub-link" href="https://huggingface.co/papers/2607.11505"><img class="hf-icon" src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="">HuggingFace</a>
-<a class="pub-link" href="https://github.com/KnowledgeXLab/PUST"><i class="fab fa-github"></i>Code</a>
+<a class="pub-link" href="https://github.com/KnowledgeXLab/P-OPD"><i class="fab fa-github"></i>Code</a>
 
-- Proposes PUST, a modular post-training framework that decouples update-signal exploration on a proxy model from alignment on the primary LLM.
+- Introduces P-OPD, an asynchronous post-training framework that transfers reward-induced relative proxy updates instead of absolute expert distributions.
 </div></div>
 
 ## Agent
